@@ -23,11 +23,7 @@ echo "---------------------------------------------------------------"
 wget https://download.cuberite.org/linux-$ARCH/Cuberite.tar.gz
 mkdir -p ./cuberite
 bsdtar -xvf Cuberite.tar.gz -C cuberite
-cd cuberite
-rm favicon.png
-rm LICENSE
-rm -rf ThirdPartyLicenses
-cd ..
+rm -rf cuberite/favicon.png cuberite/LICENSE cuberite/ThirdPartyLicenses
 
 mkdir -p ./AppDir/bin
 mv -v cuberite/* ./AppDir/bin
