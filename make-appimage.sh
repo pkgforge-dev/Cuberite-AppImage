@@ -3,8 +3,7 @@
 set -eu
 
 ARCH=$(uname -m)
-VERSION=$(pacman -Q cuberite-git | awk '{print $2; exit}') # example command to get version of application here
-export ARCH VERSION
+export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
@@ -12,7 +11,7 @@ export ICON=https://raw.githubusercontent.com/cuberite/cuberite/refs/heads/maste
 export DESKTOP=DUMMY
 
 # Deploy dependencies
-quick-sharun /usr/bin/cuberite
+quick-sharun ./AppDir/bin/Cuberite
 
 # Additional changes can be done in between here
 
