@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm lua
+pacman -Syu --noconfirm lua51
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
