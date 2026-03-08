@@ -3,7 +3,6 @@ Type=Application
 Name=Cuberite
 Icon=icon_256
 Exec=Cuberite
-StartupWMClass=
 Categories=Game;Server;
 Terminal=true
 StartupNotify=false
