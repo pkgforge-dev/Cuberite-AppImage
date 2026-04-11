@@ -1,0 +1,5 @@
+#!/bin/sh
+dir=$DATADIR/Cuberite
+mkdir -p "$dir"
+ln -sf "$APPDIR"/bin/* "$dir"
+cd "$dir"
