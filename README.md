@@ -3,7 +3,7 @@
 # Cuberite-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Cuberite-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Cuberite-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/Cuberite-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Cuberite-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/Cuberite-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Cuberite-AppImage/releases/latest)
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Cuberite-AppImage)](https://github.com/pkgforge-dev/Cuberite-AppImage/releases/latest)
 
 <p align="center">
